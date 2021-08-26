@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+       -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+Body{
+   width:100%;
+   height:100vh; background:url("https://i.postimg.cc/Wp70ZhXj/photo-1560315925-4f698336e401.jpg");
+    Background-size:cover;
+}
+.nav-bar{
+    width:100%;
+    background-color: black;
+    z-index:100;
+    
+}
+.logo{
+    color: white;
+    float: left;
+    margin-left:20px;
+    margin-top:10px;
+    
+    
+}
+nav{
+    text-align: right;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+    transition: 0.3s background-color;
+    padding: 0px 10px;
+    Z-index:10;
+   
+    
+}
+li:hover{
+    background-color: rgb(255, 19, 70);
+}
+
+a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+span{
+    font-size: 30px;
+    color: white;
+    margin: 0 20px;
+    display: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:700px) {
+Body{
+   width:100%;
+   height:100vh; 
+   background:url("https://i.postimg.cc/QxSQncyQ/photo-1551524164-e7fceddaf8fa.jpg");
+    Background-size:cover;
+}
+    span{
+        display:inline-block; 
+
+        
+    }
+    ul li{
+       display: block;
+       text-align:center ;
+       margin-top: 80px;
+       clip-path: polygon(100% 0, 86% 50%, 100% 100%, 0% 100%, 16% 50%, 0% 0%);
+       transition:0.5s;
+       
+       
+       
+    }
+    ul{
+        display: none;
+        position: relative;
+        height: 77vh;
+        z-index:100;
+        
+        
+    }
+    .logo{
+        margin-top:0px;
+    }
+
+}
+
+   
+.link{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:rgba(255,255,255,0.06);
+  Backdrop-filter:blur(5px);
+width:250px;
+text-align:center;
+  color:black;
+  font-weight:999;
+  font-size:4vw;
+  height:35px ;
+  font-size:20px;
+  padding-top:5px;
+  border-radius:5px;
+ margin-bottom:5vw;
+ Z-index:;
+}
+ 
